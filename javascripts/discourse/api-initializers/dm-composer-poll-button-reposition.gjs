@@ -1,5 +1,5 @@
 import { apiInitializer } from "discourse/lib/api";
-import PollUiBuilder from "discourse/plugins/poll/discourse/components/modal/poll-ui-builder";
+import PollUiBuilder from "discourse/plugins/poll/components/modal/poll-ui-builder";
 
 export default apiInitializer((api) => {
   api.onToolbarCreate((toolbar) => {
